@@ -1,0 +1,20 @@
+.card{
+    background: linear-gradient(45deg,rgb(0, 179, 255),rgb(249, 247, 247));
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(4, 119, 250);
+    transition: all .5s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    background: linear-gradient(45deg,white, rgb(17, 169, 228));
+        box-shadow: 2px 2px 2px 2px rgb(2, 80, 169);
+        color: rgb(1, 1, 32);
+
+}
+#covid-container{
+    margin-block: 20px;
+   
+}
+body{
+     background: radial-gradient(circle,white,rgba(35, 184, 217, 0.205));
+}
